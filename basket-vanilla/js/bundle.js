@@ -24,7 +24,7 @@ window.h = {
     module: document.querySelector('.basket__body'),
     waitScreen: document.querySelector('.wait-screen'),
     template: document.querySelector('template').content,
-    dataPath: '/js/data.json',
+    dataPath: './js/data.json',
   };
   const options = Object.assign(option, {
     fullPositionsWrapper: option.module.querySelector('.basket__table tbody'),
