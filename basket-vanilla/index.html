@@ -1,0 +1,119 @@
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="width=device-width,initial-scale=1">
+  <title>Basket</title>
+</head>
+<body>
+<div class="wait-screen hidden preloader-mini">
+  <div class="preloader-mini__item">
+    <div class="preloader-mini__item-tool"></div>
+    <div class="preloader-mini__item-tool"></div>
+    <div class="preloader-mini__item-tool"></div>
+    <div class="preloader-mini__item-tool"></div>
+  </div>
+</div>
+<section class="bs basket">
+  <div class="container">
+    <div class="row">
+      <div class="col"><h1 class="basket__header">Оформление заказа</h1></div>
+    </div>
+    <div class="row basket__body">
+      <div class="col-8">
+        <table class="basket__table table table-borderless">
+          <thead>
+          <tr class="basket__table-tr">
+            <th class="basket__table-th">Товар</th>
+            <th class="basket__table-th">Цена</th>
+            <th class="basket__table-th">Кол-во</th>
+            <th class="basket__table-th">Стоимость</th>
+            <th class="basket__table-th"></th>
+          </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-4">
+        <div class="basket__order-result">
+          <header class="basket__order-result-header">Ваш заказ</header>
+          <div class="basket__order-result-info d-flex flex-column">
+            <div class="basket__order-promo d-flex">
+              <input type="text" class="basket__order-promo-input" placeholder="Промокод">
+              <button type="button"
+                      class="basket__order-promo-confirm flex-grow-1 btn btn-secondary">
+                Применить
+              </button>
+            </div>
+            <div class="basket__order-result-price d-flex flex-column">
+              <div class="basket__order-result-discount d-flex justify-content-between">
+                <div class="basket__order-result-discount-text">Скидка</div>
+                <div class="basket__order-result-discount-number">0 ₽</div>
+              </div>
+              <div class="basket__order-result-delivery d-flex justify-content-between">
+                <div class="basket__order-result-delivery-text">Доставка</div>
+                <div class="basket__order-result-delivery-number"></div>
+              </div>
+              <div class="basket__order-total d-flex justify-content-between">
+                <div class="basket__order-total-text">Итого:</div>
+                <div class="basket__order-total-number"></div>
+              </div>
+              <button class="basket__order-submit btn btn-secondary">
+                Подтвердить заказ
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<template>
+  <tr class="basket__table-tr">
+    <td class="basket__product-info d-flex">
+      <div class="basket__product-photo-wrapper">
+        <img src=""
+             alt=""
+             class="basket__product-photo"></div>
+      <div class="basket__product-description d-flex flex-column">
+        <div class="basket__product-name"></div>
+        <div class="basket__product-article"></div>
+      </div>
+    </td>
+    <td>
+      <div class="basket__product-price"></div>
+      <div class="basket__product-old-price"></div>
+    </td>
+    <td>
+      <div class="basket__product-count-wrapper d-flex">
+        <div class="basket__product-sub">—</div>
+        <input type="text"
+               class="basket__product-count">
+        <div class="basket__product-add">+</div>
+      </div>
+    </td>
+    <td>
+      <div class="basket__table-product-final-price"></div>
+    </td>
+    <td>
+      <button class="basket__table-product-remove"></button>
+    </td>
+  </tr>
+  <div class="basket__order-position d-flex justify-content-between">
+    <div class="basket__order-position-description d-flex flex-column justify-content-between">
+      <div class="basket__order-position-name"></div>
+      <div class="basket__order-position-article"></div>
+    </div>
+    <div class="basket__order-position-info d-flex flex-column justify-content-between">
+      <div class="basket__order-position-price"></div>
+      <div class="basket__order-position-count"></div>
+    </div>
+  </div>
+</template>
+<link rel="stylesheet"
+      href="./css/bundle.css">
+<script src="./js/bundle.js"></script>
+<script src="http://localhost:35729/livereload.js"></script>
+</body>
+</html>
