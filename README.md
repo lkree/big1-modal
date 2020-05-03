@@ -14,4 +14,4 @@
 
 [future-group-tz](/future-group-tz)
 
-[conid-sort-app](/covid-sort-app)
+[covid-sort-app](/covid-sort-app)
