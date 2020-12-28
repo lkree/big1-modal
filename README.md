@@ -4,7 +4,7 @@
 
 [basket-vanilla](/basket-vanilla)
 
-[gvozd-quiz](/gvozd-quit)
+[gvozd-quiz](/gvozd-quiz)
 
 [rzhd-tz](/menshin-maksim-tz)
 
@@ -15,3 +15,5 @@
 [future-group-tz](/future-group-tz)
 
 [covid-sort-app](/covid-sort-app)
+
+[counters](/counters)
