@@ -19,3 +19,5 @@
 [counters](/counters)
 
 [elfsight-tz](/elfsight-tz)
+
+[vue-snake](/vue-snake)
