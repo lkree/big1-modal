@@ -1,0 +1,1 @@
+import{_ as o,o as n,c as a}from"./index.0fe80b4c.js";const c={name:"BackButton"};function r(e,t,s,B,k,p){return n(),a("button",{class:"backBtn",onClick:t[0]||(t[0]=()=>this.$router.back())},"Back")}var _=o(c,[["render",r]]);export{_ as B};
